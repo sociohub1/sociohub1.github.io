@@ -1,28 +1,34 @@
 .topnav {
+  margin-left: 50px;
   overflow: hidden;
   background-color:transparent;
   box-shadow: #000;
 }
 
 .topnav a {
-  float: left;
+  width: 40px;
+  border: 3px;
+  border-color: black;
+  margin-right: 15px;
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: black;
+  place-self: left;
+  padding: 15px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
-  background-color: transparent;
-  color: white;
+  opacity: 0.7;
+  background-color: #ddd;
+  color: black;
 }
 
 
 .topnav a.active {
-  background-color: transparent;
-  color:white;
+  place-content:  left;
+  background-color: white;
+  color:black;
 }
 
 
@@ -55,6 +61,8 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+  border: white;
+  border: 3px;
 }
 
 .price {
@@ -110,9 +118,11 @@
   transform: scale(1);
 }
 .butn{
+  background-color: white;
   margin-left: 100px;
-  align-items: center;
-  background-color: transparent;
+  align-items: left;
+  background-color: white;
+  place-items:initial;
 }
   
 body{
